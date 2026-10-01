@@ -1,7 +1,7 @@
 {
   "client_id": "https://chengkaichiang.github.io/cimd-poc/client.json",
   "client_name": "POC MCP Client (https)",
-  "redirect_uris": ["http://127.0.0.1:5555/callback"],
+  "redirect_uris": ["http://127.0.0.1:5555/callback", "https://localhost:8443/demo/callback"],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
